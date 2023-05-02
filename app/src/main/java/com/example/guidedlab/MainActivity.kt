@@ -1,6 +1,7 @@
 package com.example.guidedlab
 
 import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
@@ -40,7 +41,7 @@ class MainActivity : AppCompatActivity() {
                 }
 
                 else ->
-                    Toast.makeText(applicationContext, "success", Toast.LENGTH_LONG).show()
+                    startActivity(Intent(this@MainActivity, MainClassList::class.java))
 
             }
         }
