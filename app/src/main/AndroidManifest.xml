@@ -12,6 +12,9 @@
         android:theme="@style/Theme.GuidedLab"
         tools:targetApi="31">
         <activity
+            android:name=".MainTodoActivity"
+            android:exported="false" />
+        <activity
             android:name=".Summary"
             android:exported="false" />
         <activity

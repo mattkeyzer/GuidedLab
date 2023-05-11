@@ -6,8 +6,6 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
-import org.w3c.dom.Text
-
 class MainActivity : AppCompatActivity() {
 
     enum class LoginSuccess
@@ -41,7 +39,7 @@ class MainActivity : AppCompatActivity() {
                 }
 
                 else ->
-                    startActivity(Intent(this@MainActivity, MainClassList::class.java))
+                    startActivity(Intent(this@MainActivity, MainTodoActivity::class.java))
 
             }
         }

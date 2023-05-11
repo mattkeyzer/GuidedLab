@@ -33,8 +33,8 @@
 
     <EditText
         android:id="@+id/txtLoginEdit"
-        android:layout_width="214dp"
-        android:layout_height="72dp"
+        android:layout_width="213dp"
+        android:layout_height="54dp"
         android:layout_marginTop="104dp"
         android:ems="10"
         android:inputType="textPersonName"
@@ -48,13 +48,13 @@
 
     <EditText
         android:id="@+id/txtPasswordEdit"
-        android:layout_width="214dp"
-        android:layout_height="66dp"
-        android:layout_marginTop="32dp"
+        android:layout_width="207dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="56dp"
         android:ems="10"
         android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.386"
+        app:layout_constraintHorizontal_bias="0.388"
         app:layout_constraintStart_toEndOf="@+id/txtPassword"
         app:layout_constraintTop_toBottomOf="@+id/txtLoginEdit" />
 
@@ -70,12 +70,4 @@
         app:layout_constraintTop_toBottomOf="@+id/txtPasswordEdit"
         tools:text="@string/loginButtonText" />
 
-    <ImageView
-        android:layout_width="309dp"
-        android:layout_height="107dp"
-        android:layout_marginBottom="96dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/mcc_logo" />
 </androidx.constraintlayout.widget.ConstraintLayout>
